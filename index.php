@@ -1,6 +1,6 @@
 <?php
 require_once "Telegram.php";
-$telegram = new Telegram("1739103110:AAEoWpYfmtKE7Y8qbW64Y6_IE0A_9fKdSfM");
+$telegram = new Telegram("****"); //توکن
 define("chat_id", $telegram->ChatID());
 define("type", $telegram->getUpdateType());
 define("msg_id", $telegram->MessageID());
